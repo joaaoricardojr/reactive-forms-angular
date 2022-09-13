@@ -1,0 +1,5 @@
+<form [formGroup]="cadastroForm">
+    <input type="text" formControlName="firstName">
+
+    {{ cadastroForm.get('firstName')?.value }}
+</form>
